@@ -12,17 +12,16 @@
 	</head>
 	<body>
 		<nav>
-			<!--Will add toggle switch here-->
+			<div class="theme-switch-wrapper">
+				<label class="theme-switch" for="checkbox">
+					<input type="checkbox" id="checkbox" />
+					<div class="slider round"></div>
+				</label>
+				<em>Enable Dark Mode!</em>
+			</div>
 		</nav>
 		<section>
 			<article class="post">
-				<div class="theme-switch-wrapper">
-					<label class="theme-switch" for="checkbox">
-						<input type="checkbox" id="checkbox" />
-						<div class="slider round"></div>
-					</label>
-					<em>Enable Dark Mode!</em>
-				</div>
 				<h1>Dark - Light mode demo</h1>
 				<p class="post-meta">Jan 04, 2021 • ☕️ 3 min read</p>
 				<p>
@@ -61,7 +60,7 @@
 				</p>
 				<a href="#">Read More</a>
 				<footer>
-					Shades generator from
+					Shades generated from
 					<a href="https://javisperez.github.io/tailwindcolorshades/"
 						>tailwindcolorshades</a
 					>
